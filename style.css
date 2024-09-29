@@ -70,6 +70,10 @@ span {
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
+  display: inline-block;
+  line-height: 50px;
+  text-decoration: none; 
+
 }
 
 img{
