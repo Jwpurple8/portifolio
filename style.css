@@ -1,0 +1,113 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+}
+body {
+  background-image: linear-gradient(200deg, rgb(66, 9, 66), rgb(10, 9, 9));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(193, 243, 143);
+}
+
+.titulos {
+  font-family: "Noto Sans Cherokee", sans-serif;
+  font-size: 43px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.tudo {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.projetos {
+  background-color: rgba(255, 222, 182, 0.808);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+}
+
+span {
+  font-size: 34px;
+}
+
+.texto {
+    color: antiquewhite;
+  position: relative;
+  border: solid rgb(156, 46, 207) 3px;
+  margin: 20px auto;
+  width: 90%;
+  line-height: 20px;
+}
+
+.as {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(229, 150, 253, 0.404);
+  height: 50px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img{
+position: relative;
+top: 5%;
+left: -40%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.texto2{
+  position: relative;
+  left: -24%;
+  top: 0%;
+font-size: 20px;
+color: white;
+}
+.relogio{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.658);
+  width: 100%;
+  
+}
+.relogio div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.relogio span{
+  font-size:20px ; 
+  color: #fff;
+}
+
+@media (min-width: 450px){
+  .texto2{
+    left: -34%;
+  }
+}
+  
